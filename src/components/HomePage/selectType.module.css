@@ -1,0 +1,24 @@
+.select {
+    z-index: 22;
+    /* background-color: rgb(245, 246, 246); */
+    position: absolute;
+    top: 19em;
+    left: -0.4em;
+    margin: 2em;
+    padding: 0.5em;
+    width: 19.5em;
+    border-radius: 10px;
+    border: 2px solid rgb(253, 11, 11);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+/* Cambia el color de fondo y el color del texto cuando el selector está activo o enfocado */
+.select:focus, .select:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(11, 11, 11); /* Cambia el color del texto, si es necesario */
+}
+
+.select::selection{
+    background-color: rgb(228, 136, 136);
+    color: black;
+}

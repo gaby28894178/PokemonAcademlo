@@ -1,0 +1,22 @@
+.nav{
+    background-color: rgb(218, 8, 8);
+    width: 100%;
+    max-width: 1224px;
+    height: 45%;
+    color: aliceblue;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 3.8%;
+    box-sizing: border-box;
+    border-radius: 0em 0em 5px 0em;
+}
+.Pokedex{
+   width: 20em;
+   position: fixed;
+   left: 62%;
+   top: 4%;
+   z-index: 22;
+
+}

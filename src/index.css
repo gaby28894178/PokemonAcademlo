@@ -40,3 +40,33 @@ img{
 }
 
 
+.poke{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 33em;
+    
+}
+
+@media (max-width: 393px) {
+.poke{
+    width: 100%;
+    position:relative;
+    top:-1em;
+    left: 2.5em;
+    
+}
+
+}
+
+
+@media(min-width:393px) and (min-width:480px){
+    .poke{
+        top:2em;
+        left:5em;
+    }
+  
+}

@@ -1,10 +1,4 @@
-.poke{
-   width: 65%;
-   position: relative;
-   top: 14em;
-   left: 20%;
 
-}
 p{
    color: #3e3e3e;
    position: absolute;
@@ -73,7 +67,7 @@ form{
    border-radius: 4px;
    border: none;
    background-color: rgb(255, 255, 255);
-   width: 155px;
+   width:255px;
    box-shadow: 0px 0px 10px rgb(0, 0, 0);
    cursor: pointer;
  }
@@ -201,63 +195,68 @@ form{
  
 
 
- @media (max-width: 802px) {
- form{
-   /* position:absolute; */
-   top: 25em;
- }
-    .poquebolla {
-       width: 100px;
-       height: 100px;
-       border-radius: 50%;
-       border: 3px solid var(--bg-darck);
-       position: relative;
-       top: -50%;
-       left: 39%;
-       overflow: hidden;
-       box-shadow: 0px 0px 10px rgb(224, 4, 4);
-       animation: scale 0.8s infinite alternate;
-      }
-      
-.circle {
-   width: 70px;
-   height: 70px;
-   border-radius: 50%;
-   background-color: var(--bg-blanco);
-   border: 5px solid var(--bg-darck);
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+ @media (max-width: 393px) {
+   body{
+   background-color: rgb(243, 233, 233);
+
+   }
+  .poquebolla {
+   left: 7em;   
+
+  }
+  h4{
+   font-size: 20px;
+   left: -0.1em;
+   top: -5em;
+   width: 100%;
+   margin-top: 0em;
+   margin-bottom: 0em;
+  }
+form{
+   background-color: #1a1818;
+   top: 18em;
+   margin-top: 0em;
 }
-.circlemini{
-   width: 60px;
-   height: 60px;
-   border-radius: 50%;
-   border: 5px solid linear-gradient(to bottom, var(--bg-gy) 40%, var(--bg-blanco) 10%);
-   position: absolute;
-   top: 21%;
-   left: 20%;
-   transform: translate(-50%, -50%);
-   background: linear-gradient(to bottom, var(--bg-darck) 20%, var(--bg-blanco) 60%);
-   box-shadow: 0px 0px 10px rgb(224, 4, 4);
-   animation: spin 5s linear infinite;
+p{
+   box-sizing: border-box;
+   margin-left: 1.5em;
+   margin-right: 2.9em;
+   width: 90%;
+   left: -1em;
+
+
+   }
+
+button{
+   padding: 1.2em;
+}
 }
 
 
 
-.flame {
-   position: absolute;
-   top: -var(--flame-size);
-   left: 50%;
-   transform: translateX(-50%);
-   width: var(--flame-size);
-   height: var(--flame-size);
-   background-color: var(--flame-color);
-   border-radius: 50%;
-   box-shadow: 0 0 10px var(--flame-color), 0 0 20px var(--flame-color), 0 0 30px var(--flame-color);
-   animation: flame-movement 1s infinite ease-in-out;
- } 
-
+@media (min-width: 480px) and (min-width:393px){
+h4{
+   position:relative;
+   top: -4em;
+   left:6.5em;
+   width:100%;
+   margin:-10em;
+   font-size: 2em;
+}
+form{
+   background-color: #1a1818;
+   top: 18em;
+   margin-top: 0em;
    
- }
+}
+button{
+   padding: 1.8em;
+}
+   
+input{
+   padding:1.2em;
+
+}
+
+
+}

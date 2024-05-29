@@ -143,10 +143,19 @@
 
   position: absolute;
   z-index: 121;
-  top: -34em;
+  top: -33em;
+  margin: 0.2em;
   margin-top: 52em;
+display: flex;
+
 }
 
+.previus{
+  background-color: #f10a0a;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 
 

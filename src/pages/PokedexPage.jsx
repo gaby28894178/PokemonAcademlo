@@ -54,7 +54,10 @@ const PokedexPage = () => {
   return (
     <div className='card-container'>
       <header className='header'>
+        <a href="/">
         <img className='pok' src={pok} alt="" />
+        </a>
+
         <div className='divn'></div>
         <div className="poquebolla">
           <div className="line"></div>
@@ -80,10 +83,10 @@ const PokedexPage = () => {
         )}
       </div>
       <div className='pagination'>
-        <button onClick={handlePreviousPage} disabled={currentPage === 1}>Previous</button>
+        <button className='previus' onClick={handlePreviousPage} disabled={currentPage === 1}>Previous</button>
       
         <span>{currentPage} / {totalPages}</span>
-        <button onClick={handleNextPage} disabled={currentPage === totalPages}>Next</button>
+        <button   className='nex' onClick={handleNextPage} disabled={currentPage === totalPages}>Next</button>
       </div>
     </div>
   );

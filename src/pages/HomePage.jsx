@@ -18,7 +18,10 @@ const HomePage = () => {
 
   return (
     <div>
+      <a href="/">
       <img className="poke" src={poke} alt="Pokémon" />
+
+      </a>
       <p>Hi trainer, if you want to find your favorite Pokémon please give me your trainer name</p>
       <form onSubmit={handlerSubmit}>
         <h4>Welcome Trainer Log In</h4>

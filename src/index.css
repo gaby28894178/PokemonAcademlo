@@ -62,11 +62,3 @@ img{
 
 }
 
-
-@media(min-width:393px) and (min-width:480px){
-    .poke{
-        top:2em;
-        left:5em;
-    }
-  
-}
